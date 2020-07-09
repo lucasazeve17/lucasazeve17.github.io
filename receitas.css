@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif ;
+    color: #111111;   
+}
+#app{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    display:flex ;
+    align-items: center;
+}
+header{
+margin: 0 230px;
+}
+
+
+header h1{    
+    margin-top: 36px;
+    margin-bottom: 50px;
+    font-family: Cochin;
+    font-size: 28px;
+    line-height: 32px;
+    
+    font-family: Cochin;
+    
+    letter-spacing: 1.65px;
+    
+}
+header h1 a{
+    color: #111111;
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+}
+.links a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration:none ;
+    color: #111111;
+    margin: 38px 0 56px 30px;
+}
+.links .bold{
+    font-weight: bold;
+}
+.links :nth-child(1){
+    margin-left: 122px;
+    margin-right: 0;
+    
+}
+.recipes{
+    margin: 0 230px;
+    margin-bottom: 20px;
+    max-width: 940px;    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0 20px;
+}
+.recipe{
+    margin-bottom: 30px;
+}
+.recipe-image img{
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+.recipe-info{
+    margin-top: 20px;
+}
+.recipe-info h3{
+    
+    font-weight:500;
+    font-size: 18px;
+    color: #111111;
+}
+.recipe-info p{
+    font-weight:500;
+    font-size: 14px;
+    color: #777777;
+}
+/* modal */
+.modal-overlay{
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal{
+
+    background-color: #fff;
+    border-radius: 16px;
+    height: 413px;
+    width: 660px;
+    margin:10% auto;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content img{
+    width: 600px;
+    height: 200px;
+    image-resolution: 870px 600px;
+
+    margin: 30px 30px 20px 30px;
+    border-radius: 15px;
+}
+.modal-content h3{
+    font-weight:400;
+    font-size: 24px;
+    color: #111111;
+    text-align: center;
+    margin-bottom:5px;
+}
+.modal-content  p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 60px;
+}
+.modal-content a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+    cursor: pointer;
+}
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+footer{
+   
+    height: 62px;
+    background: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}

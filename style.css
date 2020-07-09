@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family:'Roboto', sans-serif ;
+    color: #111111;    
+   
+}
+#app{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+header{
+    display:flex ;
+    align-items: center;
+    margin-left: 231px;
+}
+header h1{    
+    margin-top: 36px;
+    margin-bottom: 50px;
+    font-family: Cochin;
+    font-size: 28px;
+    line-height: 32px;
+ 
+    font-family: Cochin;
+
+    color: #111111;
+    letter-spacing: 1.65px;
+    
+}
+header h1 a{
+    color: #111111;
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+}
+.links a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration:none ;
+    color: #111111;
+    margin: 38px 0 56px 30px;
+}
+.links :nth-child(1){
+    margin-left: 122px;
+    margin-right: 0;
+}
+
+.banner-container{
+    background: #FBDFDB;
+    width: 940px;
+    height: 366px;
+    border-radius: 30px;
+    border-radius: 30px;
+    margin-right: 230px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.banner-container h2{
+    margin: 117px 0 0 60px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #111111;
+}
+.banner-container p{
+    height: 84px;
+    width: 316px;
+
+    margin-left: 60px;
+    margin-top: 10px;
+
+
+    opacity: 0.7;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+.banner-image img{
+    width: 216px;
+    height: 300px;
+    margin-left: 0;
+    right: 100px;
+    top:66px;
+    position: absolute;
+}
+h2{
+    margin-left: 230px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.recipes{
+    margin: 0 230px;
+    margin-bottom: 30px;
+    max-width: 940px;
+    
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.recipe{
+    margin-bottom: 30px;
+}
+.recipe-image img{
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+.recipe-info{
+    margin-top: 20px;
+}
+.recipe-info h3{
+    
+    font-weight:500;
+    font-size: 18px;
+    color: #111111;
+}
+.recipe-info p{
+    font-weight:500;
+    font-size: 14px;
+    color: #777777;
+}
+footer{
+    height: 62px;
+    width: 100vw;
+    background: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
